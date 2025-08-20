@@ -43,14 +43,6 @@ export default function Hero() {
             <MapPin size={16}/> {profile.location}
           </div>
         </div>
-        <div className="md:col-span-5">
-          <div className="card h-full flex items-center justify-center">
-            <div className="text-center">
-              <div className="mx-auto h-28 w-28 rounded-2xl bg-gradient-to-br from-brand-500 to-brand-700"></div>
-              <p className="mt-4 text-sm text-slate-500 dark:text-slate-400">Add your photo/logo here</p>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );
